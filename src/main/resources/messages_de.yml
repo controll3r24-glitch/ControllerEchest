@@ -1,0 +1,10 @@
+# German messages
+errors:
+  player-only: "&cNur Spieler können diesen Befehl verwenden."
+  no-permission: "&cDu hast keine Berechtigung."
+  invalid-number: "&cDie Zahl muss zwischen 1 und 54 liegen."
+  cannot-open: "&cDu kannst diese Enderkiste nicht öffnen."
+  player-not-found: "&cSpieler nicht gefunden."
+  console-cannot-open: "&cDie Konsole kann kein Inventar öffnen."
+admin:
+  usage: "&eVerwendung: /controlechest open <Spieler> <Nummer>"

@@ -1,0 +1,10 @@
+# Italian messages
+errors:
+  player-only: "&cSolo i giocatori possono usare questo comando."
+  no-permission: "&cNon hai il permesso per farlo."
+  invalid-number: "&cIl numero deve essere tra 1 e 54."
+  cannot-open: "&cNon puoi aprire questo enderchest."
+  player-not-found: "&cGiocatore non trovato."
+  console-cannot-open: "&cLa console non puo aprire inventari."
+admin:
+  usage: "&eUso: /controlechest open <giocatore> <numero>"

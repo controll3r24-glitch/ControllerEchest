@@ -1,0 +1,14 @@
+# ControllerEchest config.yml
+language: en
+glass:
+  empty: LIME_STAINED_GLASS_PANE
+  half: YELLOW_STAINED_GLASS_PANE
+  full: RED_STAINED_GLASS_PANE
+gui:
+  menu-title: "&7Enderchest of %player%"
+  chest-title: "&6EnderChest #%number%"
+  admin-chest-title: "&5EnderChest #%number% (%player%)"
+  glass-name: "&6Enderchest %number%  (%occupied% / %max%)"
+chest:
+  default-size: 27
+  staff-size: 54

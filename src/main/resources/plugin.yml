@@ -1,0 +1,243 @@
+name: ControllerEchest
+version: 1.0.0
+main: com.controll3r24.controllerechest.ControllerEchest
+api-version: 1.21
+author: Controll3r24
+description: Manage multiple enderchests per player
+commands:
+  ec:
+    description: Open enderchest menu or specific chest
+    usage: /ec [number]
+  controlechest:
+    description: Admin commands for enderchests
+    usage: /controlechest open <player> <number>
+permissions:
+  controlenderchest.open:
+    description: Allows using /ec command
+    default: true
+  controlenderchest.admin:
+    description: Allows admin commands and bypass slot restrictions
+    default: op
+  controlenderchest.staff:
+    description: Grants larger enderchest size (54 slots)
+    default: op
+  controlenderchest.slot.*:
+    description: Allows opening any specific slot (wildcard)
+    default: false
+    children:
+      controlenderchest.slot.1: true
+      controlenderchest.slot.2: true
+      controlenderchest.slot.3: true
+      controlenderchest.slot.4: true
+      controlenderchest.slot.5: true
+      controlenderchest.slot.6: true
+      controlenderchest.slot.7: true
+      controlenderchest.slot.8: true
+      controlenderchest.slot.9: true
+      controlenderchest.slot.10: true
+      controlenderchest.slot.11: true
+      controlenderchest.slot.12: true
+      controlenderchest.slot.13: true
+      controlenderchest.slot.14: true
+      controlenderchest.slot.15: true
+      controlenderchest.slot.16: true
+      controlenderchest.slot.17: true
+      controlenderchest.slot.18: true
+      controlenderchest.slot.19: true
+      controlenderchest.slot.20: true
+      controlenderchest.slot.21: true
+      controlenderchest.slot.22: true
+      controlenderchest.slot.23: true
+      controlenderchest.slot.24: true
+      controlenderchest.slot.25: true
+      controlenderchest.slot.26: true
+      controlenderchest.slot.27: true
+      controlenderchest.slot.28: true
+      controlenderchest.slot.29: true
+      controlenderchest.slot.30: true
+      controlenderchest.slot.31: true
+      controlenderchest.slot.32: true
+      controlenderchest.slot.33: true
+      controlenderchest.slot.34: true
+      controlenderchest.slot.35: true
+      controlenderchest.slot.36: true
+      controlenderchest.slot.37: true
+      controlenderchest.slot.38: true
+      controlenderchest.slot.39: true
+      controlenderchest.slot.40: true
+      controlenderchest.slot.41: true
+      controlenderchest.slot.42: true
+      controlenderchest.slot.43: true
+      controlenderchest.slot.44: true
+      controlenderchest.slot.45: true
+      controlenderchest.slot.46: true
+      controlenderchest.slot.47: true
+      controlenderchest.slot.48: true
+      controlenderchest.slot.49: true
+      controlenderchest.slot.50: true
+      controlenderchest.slot.51: true
+      controlenderchest.slot.52: true
+      controlenderchest.slot.53: true
+      controlenderchest.slot.54: true
+  controlenderchest.slot.1:
+    description: Allows opening enderchest #1
+    default: false
+  controlenderchest.slot.2:
+    description: Allows opening enderchest #2
+    default: false
+  controlenderchest.slot.3:
+    description: Allows opening enderchest #3
+    default: false
+  controlenderchest.slot.4:
+    description: Allows opening enderchest #4
+    default: false
+  controlenderchest.slot.5:
+    description: Allows opening enderchest #5
+    default: false
+  controlenderchest.slot.6:
+    description: Allows opening enderchest #6
+    default: false
+  controlenderchest.slot.7:
+    description: Allows opening enderchest #7
+    default: false
+  controlenderchest.slot.8:
+    description: Allows opening enderchest #8
+    default: false
+  controlenderchest.slot.9:
+    description: Allows opening enderchest #9
+    default: false
+  controlenderchest.slot.10:
+    description: Allows opening enderchest #10
+    default: false
+  controlenderchest.slot.11:
+    description: Allows opening enderchest #11
+    default: false
+  controlenderchest.slot.12:
+    description: Allows opening enderchest #12
+    default: false
+  controlenderchest.slot.13:
+    description: Allows opening enderchest #13
+    default: false
+  controlenderchest.slot.14:
+    description: Allows opening enderchest #14
+    default: false
+  controlenderchest.slot.15:
+    description: Allows opening enderchest #15
+    default: false
+  controlenderchest.slot.16:
+    description: Allows opening enderchest #16
+    default: false
+  controlenderchest.slot.17:
+    description: Allows opening enderchest #17
+    default: false
+  controlenderchest.slot.18:
+    description: Allows opening enderchest #18
+    default: false
+  controlenderchest.slot.19:
+    description: Allows opening enderchest #19
+    default: false
+  controlenderchest.slot.20:
+    description: Allows opening enderchest #20
+    default: false
+  controlenderchest.slot.21:
+    description: Allows opening enderchest #21
+    default: false
+  controlenderchest.slot.22:
+    description: Allows opening enderchest #22
+    default: false
+  controlenderchest.slot.23:
+    description: Allows opening enderchest #23
+    default: false
+  controlenderchest.slot.24:
+    description: Allows opening enderchest #24
+    default: false
+  controlenderchest.slot.25:
+    description: Allows opening enderchest #25
+    default: false
+  controlenderchest.slot.26:
+    description: Allows opening enderchest #26
+    default: false
+  controlenderchest.slot.27:
+    description: Allows opening enderchest #27
+    default: false
+  controlenderchest.slot.28:
+    description: Allows opening enderchest #28
+    default: false
+  controlenderchest.slot.29:
+    description: Allows opening enderchest #29
+    default: false
+  controlenderchest.slot.30:
+    description: Allows opening enderchest #30
+    default: false
+  controlenderchest.slot.31:
+    description: Allows opening enderchest #31
+    default: false
+  controlenderchest.slot.32:
+    description: Allows opening enderchest #32
+    default: false
+  controlenderchest.slot.33:
+    description: Allows opening enderchest #33
+    default: false
+  controlenderchest.slot.34:
+    description: Allows opening enderchest #34
+    default: false
+  controlenderchest.slot.35:
+    description: Allows opening enderchest #35
+    default: false
+  controlenderchest.slot.36:
+    description: Allows opening enderchest #36
+    default: false
+  controlenderchest.slot.37:
+    description: Allows opening enderchest #37
+    default: false
+  controlenderchest.slot.38:
+    description: Allows opening enderchest #38
+    default: false
+  controlenderchest.slot.39:
+    description: Allows opening enderchest #39
+    default: false
+  controlenderchest.slot.40:
+    description: Allows opening enderchest #40
+    default: false
+  controlenderchest.slot.41:
+    description: Allows opening enderchest #41
+    default: false
+  controlenderchest.slot.42:
+    description: Allows opening enderchest #42
+    default: false
+  controlenderchest.slot.43:
+    description: Allows opening enderchest #43
+    default: false
+  controlenderchest.slot.44:
+    description: Allows opening enderchest #44
+    default: false
+  controlenderchest.slot.45:
+    description: Allows opening enderchest #45
+    default: false
+  controlenderchest.slot.46:
+    description: Allows opening enderchest #46
+    default: false
+  controlenderchest.slot.47:
+    description: Allows opening enderchest #47
+    default: false
+  controlenderchest.slot.48:
+    description: Allows opening enderchest #48
+    default: false
+  controlenderchest.slot.49:
+    description: Allows opening enderchest #49
+    default: false
+  controlenderchest.slot.50:
+    description: Allows opening enderchest #50
+    default: false
+  controlenderchest.slot.51:
+    description: Allows opening enderchest #51
+    default: false
+  controlenderchest.slot.52:
+    description: Allows opening enderchest #52
+    default: false
+  controlenderchest.slot.53:
+    description: Allows opening enderchest #53
+    default: false
+  controlenderchest.slot.54:
+    description: Allows opening enderchest #54
+    default: false
